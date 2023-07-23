@@ -91,19 +91,38 @@
     -moz-transform: scaleY(1);
     -ms-transform: scaleY(1);
     -o-transform: scaleY(1);
+    transform-origin: top;
 }
 
 .fullPageMenu .nav ul li a{
     position: relative;
     color: #fff;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 3.1rem;
     font-weight: 700;
     line-height: 5rem;
     padding-top: 12px;
     display: block;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
 }
-
+.fullPageMenu .nav ul li a::before{
+    content: attr(data-text);
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    color: #fff;
+}
+.fullPageMenu .nav ul li:hover a{
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
 .menuicon{
     position: fixed;
     top:20px;
