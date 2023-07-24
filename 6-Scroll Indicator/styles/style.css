@@ -12,7 +12,8 @@ header{
     width: 100%;
     text-align: center;
 }
- header h2{
+
+ h2{
     padding: 20px 0;
     font-size: 3rem;
  }
@@ -23,10 +24,21 @@ header{
     background-color: #efefef;
  }
 
- header.progress .progress-bar{
+ header .progress .progress-bar{
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left rgb(184,2,216) rgb(255,0,43));
+    background: linear-gradient(to left, rgb(246, 55, 217), rgb(227, 99, 8));
  }
 
- 
+ section{
+    margin-top: 150px;
+    padding: 50px 100px;
+
+ }
+section p{
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
