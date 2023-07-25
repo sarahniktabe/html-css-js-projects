@@ -1,7 +1,9 @@
-const progress = document.querySelector(".progross-bar");
-window.addEventListener("scroll", scrollIndicator);
+let progress = document.querySelector('.progress-bar');
 
-function scrollIndicator(){
-    const winScroll =window.pageYOffset;
-    console.log(winScroll); 
-}
+window.addEventListener('scroll', ()=>{
+    const winScroll = window.pageYOffset;
+   const height = document.documentElement.scrollHeight - window.innerHeight;
+   const scrolled = (winScroll/height) * 100;
+   progress.style.width = `${scrolled}%`
+   
+})
