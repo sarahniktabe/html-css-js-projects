@@ -4,7 +4,7 @@
       margin: 0;
   }
 html{
-    
+    scroll-behavior: smooth;
 }
 
   body{
@@ -41,9 +41,8 @@ html{
     right: 25px;
     bottom: 25px;
     background: #fff;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,5 +51,18 @@ html{
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    transition: all .4s ease-in-out;
     color: #000;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+.to-top.active{
+    opacity: 1;
+    bottom: 40px;
+}
+.to-top svg{
+    font-size: 30px;
 }
