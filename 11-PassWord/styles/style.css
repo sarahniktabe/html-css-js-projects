@@ -26,27 +26,23 @@ width: 500px;
 height: 40px;
 position: relative;
 }
-
-
 .password input{
 width: 70%;
 padding: 10px;
 box-sizing: border-box;
-font-family: 'vazir';
 border: 1px solid #ccc;
 color: #555;
 font-size: 18px;
 font-weight: bold;
 outline: none;
 }
-
 .toggle{
 position: absolute;
-right: 40px;
+left: 40px;
 }
 
 .fa-eye-slash{
-display: none;
+display: none !important;
 }
 
 .toggle svg{
@@ -65,5 +61,5 @@ display: none;
 }
 
 .hide .fa-eye-slash{
-display: block;
+display: block !important;
 }
