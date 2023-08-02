@@ -1,4 +1,8 @@
-const imgBx = document.querySelector('.imgBox');
-imgBx.addEventListener('click', function(){
-    imgBx.classList.toggle('active');
-})
+const imgBx = document.querySelectorAll('.imgBox');
+
+console.log(imgBx)
+
+
+imgBx.forEach(popup => popup.addEventListener('click', function(){
+    popup.classList.toggle('active');
+}))
