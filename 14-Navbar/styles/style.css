@@ -1,0 +1,41 @@
+
+*{
+      padding: 0;
+      margin: 0;
+  }
+
+body{
+    display: flex;
+    height: 2000px;
+    background-color: #525252;
+  }
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul{
+  display: flex;
+  background-color: crimson;
+}
+header nav a{
+  background-color: yellow;
+}
+header nav ul a{
+  background-color: blue;
+}
+header nav ul li{
+
+}
