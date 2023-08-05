@@ -3,8 +3,6 @@
   margin: 0;
 }
 body{
-  font-family: 'vazir';
-  direction: rtl;
   display: flex;
   background: #525252;
   height: 2000px;
@@ -18,7 +16,7 @@ header{
   position: fixed;
   width: 100%;
   top: 0;
-  right: 0;
+  left: 0;
   padding: 40px 0;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
