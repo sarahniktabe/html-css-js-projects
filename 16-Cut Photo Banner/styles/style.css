@@ -4,8 +4,24 @@
       margin: 0;
   }
 
-  body{
-      height: 100vh;
+body{
+      height: 200vh;
   }
 
-  
+div{
+    position: absolute;
+    top:0;
+    right: 0;
+    background: url('../images/1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+
+div .angle{
+position: absolute;
+bottom: -100%;
+left:0;
+width: 100%;
+height: 100%;
+  }
