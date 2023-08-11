@@ -13,9 +13,9 @@ height: 100vh;
 }
 
 #open{
-  background-color: chocolate;
-  border: 3px solid green;
-  color:darkslategrey;
+  background-color:cornflowerblue;
+  border: 3px solid royalblue;
+  color: #fff;
   padding: 10px 50px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -29,9 +29,9 @@ height: 100vh;
 }
 
 #open:hover{
-  background-color: green;
-  border: 3px solid chocolate;
-  color:tomato;
+  background-color:#fff;
+  border: 3px solid steelblue ;
+  color:darkblue;
 }
 
 .modal_container{
@@ -66,13 +66,13 @@ height: 100vh;
 }
 
 #closeModal{
-  background-color: chocolate;
-  border: 3px solid green;
-  color:darkslategrey;
-  padding: 10px 30px;
+  background-color:cornflowerblue;
+  border: 3px solid royalblue;
+  color: #fff;
+  padding: 5px 30px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   cursor: pointer;
   transition: all .3 ease-in;
   -webkit-transition: all .3 ease-in;
