@@ -13,5 +13,51 @@ height: 100vh;
 }
 
 #open{
-  
+  background-color: chocolate;
+  border: 3px solid green;
+  color:darkslategrey;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all .3 ease-in;
+  -webkit-transition: all .3 ease-in;
+  -moz-transition: all .3 ease-in;
+  -ms-transition: all .3 ease-in;
+  -o-transition: all .3 ease-in;
 }
+
+#open:hover{
+  background-color: green;
+  border: 3px solid chocolate;
+  color:tomato;
+}
+
+.modal_container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, .6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+ 
+}
+
+.modal_container .modal{
+  width: 650px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
