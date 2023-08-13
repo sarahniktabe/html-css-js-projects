@@ -33,6 +33,7 @@ a:nth-child(2){
   background-color:slateblue;
 }
 span{
+  position: absolute;
   background-color: #fff;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -42,3 +43,17 @@ span{
   animation: animate 1s linear infinite;
   -webkit-animation: animate 1s linear infinite;
 }
+
+@keyframes animate{
+  0%{
+    width: 0;
+    height: 0;
+  opacity: .5;
+  }
+  100%{
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
+
