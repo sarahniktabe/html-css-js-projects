@@ -42,6 +42,7 @@ span{
   -o-border-radius: 50%;
   animation: animate 1s linear infinite;
   -webkit-animation: animate 1s linear infinite;
+  pointer-events: none;
 }
 
 @keyframes animate{
