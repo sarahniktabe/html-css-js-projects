@@ -6,8 +6,10 @@ accor.forEach((item) => {
     const content = item.nextElementSibling;
     if (content.style.height) {
       content.style.height = null;
+      content.style.padding = "0px";
     } else {
       content.style.height = content.scrollHeight + "px";
+      content.style.padding = "10px";
     }
   });
 });

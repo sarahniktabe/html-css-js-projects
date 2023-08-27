@@ -33,8 +33,9 @@ body {
   content: "-" !important;
   margin-left: 16px;
 }
-.accordion .accordion-title.active {
-    
+
+.accordion .accordion-content.padding {
+  padding: 10px;
 }
 
 .accordion .accordion-content {
