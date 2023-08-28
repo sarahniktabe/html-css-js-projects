@@ -1,12 +1,36 @@
-
-  *{
-      padding: 0;
-      margin: 0;
-  }
-html{
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-  body{
-      height: 100vh;
-  }
+body {
+  background-color: #333;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.content img {
+  width: 100%;
+}
+
+p {
+  line-height: 25px;
+}
+
+h3 {
+  padding: 20px 0;
+}
+small {
+  color: #666;
+}
