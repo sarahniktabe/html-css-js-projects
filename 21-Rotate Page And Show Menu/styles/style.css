@@ -5,8 +5,6 @@
     outline: none;
 }
 body{
-    font-family: 'vazir';
-    direction: rtl;
    background: #333;
    overflow-x: hidden;
 }
