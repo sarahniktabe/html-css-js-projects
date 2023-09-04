@@ -35,3 +35,16 @@ h2 {
   height: 100%;
   background-color: #fff;
 }
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  -webkit-animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
