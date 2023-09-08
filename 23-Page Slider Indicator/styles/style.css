@@ -65,85 +65,9 @@ header nav .logo {
   width: 100%;
 }
 
-.content .contentBox {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
 
-.content .contentBox .imgBox {
-  width: 50%;
-}
 
-.content .contentBox .imgBox img {
-  width: 100%;
-}
 
-.content .contentBox .textBox {
-  width: 50%;
-}
 
-.content .contentBox .textBox h2 {
-  color: #fff;
-  font-weight: 900;
-  font-size: 3.2rem;
-}
 
-.content .contentBox .textBox h2 span {
-  color: #0ac752;
-}
 
-.content .contentBox .textBox p {
-  color: #fff;
-  line-height: 25px;
-  margin: 20px 0;
-}
-
-.content .contentBox .textBox a {
-  text-decoration: none;
-  background: #0ac752;
-  padding: 10px;
-  color: #fff;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-.thumb {
-  list-style: none;
-  position: absolute;
-  bottom: 50px;
-  display: flex;
-  right: 50%;
-  transform: translateX(50%);
-  -webkit-transform: translateX(50%);
-  -moz-transform: translateX(50%);
-  -ms-transform: translateX(50%);
-  -o-transform: translateX(50%);
-}
-
-.thumb li {
-  margin: 0 20px;
-  cursor: pointer;
-}
-
-.thumb li img {
-  width: 150px;
-}
-
-.social {
-  position: absolute;
-  right: 30px;
-  list-style: none;
-}
-.social li {
-  margin: 5px 0;
-}
-.social a {
-  font-size: 25px;
-  color: #fff;
-}
