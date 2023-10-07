@@ -24,3 +24,4 @@ for (let i = 0; i < allBox.length; i++) {
     div.style.height = height + "px";
   });
 }
+
