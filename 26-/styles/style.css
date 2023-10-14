@@ -46,10 +46,15 @@ body {
 .layer1 {
   position: relative;
   background-color: yellow;
-  width: 410px;
+  width: 0;
   height: 100%;
   top: 0;
   left: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .layer2,
@@ -63,17 +68,21 @@ body {
 
 .layer2 {
   background-color: blueviolet;
-  width: 395px;
+  width: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .layer3 {
   background-color: aquamarine;
-  width: 380px;
+  width: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .layer4 {
   background-color: azure;
-  width: 365px;
+  width: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
 
 .menuclose {
@@ -107,4 +116,20 @@ body {
   text-decoration: none;
   margin: 15px 0;
   color: black;
+}
+
+.layer1.check {
+  width: 410px;
+}
+
+.check .layer2 {
+  width: 395px;
+}
+
+.check .layer3 {
+  width: 380px;
+}
+
+.check .layer4 {
+  width: 380px;
 }
