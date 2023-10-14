@@ -31,7 +31,6 @@ body {
   background-color: black;
   color: #fff;
   font-size: 30px;
-  cursor: pointer;
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -41,6 +40,7 @@ body {
 
 .container .menuopen:hover {
   color: seagreen;
+  cursor: pointer;
 }
 
 .layer1 {
@@ -51,10 +51,7 @@ body {
   top: 0;
   left: 0;
   transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+  transition-delay: 0.9s;
 }
 
 .layer2,
@@ -70,19 +67,29 @@ body {
   background-color: blueviolet;
   width: 0;
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition-delay: 0.7s;
 }
 
 .layer3 {
   background-color: aquamarine;
   width: 0;
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition-delay: 0.5s;
 }
 
 .layer4 {
   background-color: azure;
   width: 0;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition-delay: 0.3s;
 }
 
 .menuclose {
@@ -101,6 +108,7 @@ body {
 
 .menuclose:hover {
   color: seagreen;
+  cursor: pointer;
 }
 .links {
   position: absolute;
@@ -120,16 +128,28 @@ body {
 
 .layer1.check {
   width: 410px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition-delay: 0.3s;
 }
 
 .check .layer2 {
   width: 395px;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.5s;
 }
 
 .check .layer3 {
   width: 380px;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.7s;
 }
 
 .check .layer4 {
-  width: 380px;
+  width: 365px;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.9s;
 }
