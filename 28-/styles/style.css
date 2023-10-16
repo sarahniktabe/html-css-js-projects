@@ -81,7 +81,13 @@ nav header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+}
+nav header .logo a {
+  text-decoration: none;
+  color: #6fc704;
+  font-weight: 600;
+  font-size: large;
 }
 
 nav header .logo img {
