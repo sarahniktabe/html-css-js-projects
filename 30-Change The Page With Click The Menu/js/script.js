@@ -1,23 +1,20 @@
-const slide = document.querySelector('.slider').children;
-const indicator = document.querySelector('.slider-indicator').children;
+const sections = document.querySelectorAll("section");
+const li = document.querySelectorAll("nav .container ul li");
+let current;
 
-for(i = 0;i < indicator.length; i++){
-    indicator[i].addEventListener('click', function(){
+window.addEventListener("scroll", function () {
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
 
-        for(j=0;j<indicator.length;j++){
-            indicator[j].classList.remove('active');
-        }
-        this.classList.add('active');
-
-
-
-        const id = this.getAttribute('data-id');
-        for(z=0; z < slide.length; z++){
-            slide[z].classList.remove('active');
-        }
-
-        slide[id].classList.add('active');
-
-
-    })
-}
+  li.forEach((item) => {
+    item.classList.remove("active");
+    if (item.classList.contains(current)) {
+      item.classList.add("active");
+    }
+  });
+});
