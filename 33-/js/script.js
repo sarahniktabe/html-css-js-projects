@@ -14,7 +14,7 @@ function showAlertBox() {
   }
   timer = setTimeout(function () {
     hideAlertBox();
-  }, 2000);
+  }, 3000);
 }
 
 function hideAlertBox() {
