@@ -25,10 +25,16 @@ body {
   justify-content: space-between;
   width: 200px;
 }
+
 .alert-box .close-btn {
   cursor: pointer;
   font-size: 19px;
 }
+
+.alert-box.hide {
+  display: none;
+}
+
 .my-btn {
   font-size: 20px;
   color: #fff;
@@ -43,6 +49,7 @@ body {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
 .hidden {
   visibility: hidden;
 }
