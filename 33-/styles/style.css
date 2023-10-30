@@ -23,7 +23,7 @@ body {
   font-size: 19px;
   align-items: center;
   justify-content: space-between;
-  width: 270px;
+  width: 200px;
 }
 .alert-box .close-btn {
   cursor: pointer;
@@ -43,6 +43,6 @@ body {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.hidden{
+.hidden {
   visibility: hidden;
 }
