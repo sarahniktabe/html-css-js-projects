@@ -1,23 +1,34 @@
-const btn = document.querySelector(".my-btn");
-const alertBox = document.querySelector(".alert-box ");
+const btn = document.querySelector('.my-btn');
+const alertBox = document.querySelector('.alert-box');
+const closeBtn = document.querySelector('.close-btn');
+console.log(closeBtn)
 let timer;
 
-btn.addEventListener("click", function () {
-  showAlertBox();
+btn.addEventListener('click', function(){
+    showAlertBox();
 });
 
-function showAlertBox() {
-  alertBox.classList.add("show");
-  alertBox.classList.remove("hide");
-  if (alertBox.classList.contains("hidden")) {
-    alertBox.classList.remove("hidden");
-  }
-  timer = setTimeout(function () {
+
+closeBtn.addEventListener('click', function(){
     hideAlertBox();
-  }, 3000);
+    clearTimeout(timer);
+})
+
+
+function showAlertBox(){
+    alertBox.classList.remove('hide');
+    alertBox.classList.add('show');
+    if(alertBox.classList.contains('hidden')){
+        alertBox.classList.remove('hidden')
+    }
+    timer = setTimeout(function(){
+        hideAlertBox();
+    }, 5000)
 }
 
-function hideAlertBox() {
-  alertBox.classList.remove("show");
-  alertBox.classList.add("hide");
+
+
+function hideAlertBox(){
+    alertBox.classList.remove('show');
+    alertBox.classList.add('hide');
 }
