@@ -1,12 +1,12 @@
-
-  *{
-      padding: 0;
-      margin: 0;
-  }
-html{
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-  body{
-      height: 100vh;
-  }
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
