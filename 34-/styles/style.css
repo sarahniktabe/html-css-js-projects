@@ -9,4 +9,42 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/bg.jpg");
+}
+
+.container {
+  width: 1200px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+h1 span {
+  color: tomato;
+  font-weight: bold;
+}
+h1 span::after {
+  content: "";
+  background: tomato;
+  border-right: 4px solid tomato;
+  margin: 5px;
+  animation: blink 0.5s infinite ease;
+  -webkit-animation: blink 0.5s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  color: #fff;
 }
