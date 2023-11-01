@@ -1,4 +1,4 @@
-const text = ["web designer", "progmramming", "fronted web developer"];
+const text = ["fronted web developer", "web designer", "progmrammer"];
 
 let count = 0;
 let index = 0;
