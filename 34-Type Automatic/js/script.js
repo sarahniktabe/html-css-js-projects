@@ -13,7 +13,6 @@ let letter = "";
   letter = currentText.slice(0, ++index);
 
   document.querySelector(".type").textContent = letter;
-  console.log(index);
   if (letter.length === currentText.length) {
     count++;
     index = 0;
