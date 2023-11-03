@@ -1,8 +1,8 @@
 const text = [
-  "fronted web developer",
-  "web designer",
-  "programmer",
-  "the daf teacher",
+  "fronted web developer.",
+  "web designer.",
+  "programmer.",
+  "the daf teacher.",
 ];
 
 let count = 0;
