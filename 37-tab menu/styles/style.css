@@ -44,4 +44,7 @@ header ul li a{
     -o-transition: all .3s ease-in-out;
 }
 
-
+header ul li.active a{
+    background: #c00;
+    color: #fff;
+}
